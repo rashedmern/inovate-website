@@ -1,0 +1,32 @@
+header{
+    position: absolute;
+    width: 100%;
+    nav{
+            background: rgba(22, 12, 109,.5);
+            padding: 18px 0px !important;
+            ul{
+                gap: 42px;
+                li{
+                    a{
+                        font-size: 18px;
+                        font-weight: 600;
+                        color: #EFF4FA;
+                        font-family: "Open Sans", serif;
+                        &:hover{
+                            color:#1BBF00;
+                        }
+                    }
+                    }
+            }
+            button{
+              @include button();
+              border: 1px solid #1BBF00;
+              &:hover{
+                background: transparent;
+                border: 1px solid #1BBF00;
+                color: #EFF4FA;
+              }
+            }
+       
+    }
+}
