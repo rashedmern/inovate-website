@@ -1,0 +1,35 @@
+#information{
+    background: #F9F9FB;
+    .row{
+        .item{
+            text-align: center;
+            margin-top: 293px;
+            border-right: 2px solid #726E9E;
+            }
+            .last_item{
+                border: none;
+
+            }
+            
+            h2{
+                font-size: 64px;
+                font-weight: 700;
+                color: #1BBF00;
+                font-family: "Open Sans", serif;
+                line-height: 64px;
+            }
+            p{
+                text-transform: capitalize;
+                font-size: 36px;
+                font-weight: 500;
+                line-height: 40px;
+                font-family: "Open Sans", serif;
+                color: #141135;
+                margin-bottom: 280px;
+            }
+        }
+        .element1{
+            position: absolute;
+            right: 0;
+        }
+}
