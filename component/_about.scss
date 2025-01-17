@@ -1,0 +1,82 @@
+#about{
+    background: #F8F8FF;
+    h2{
+        font-size: 48px;
+        font-weight: 700;
+        line-height: auto;
+        color: #141135;
+        text-align: center;
+        font-family: "Open Sans", serif;
+        padding-top: 100px;
+    }
+    .slider{
+        margin: 152px auto;
+        background: #FFFFFF;
+        border-radius: 20px;
+        max-width: 1080px;
+        position: relative;
+        -webkit-box-shadow: 0px 0px 10px 5px rgba(171,171,171,0.73);
+        -moz-box-shadow: 0px 0px 10px 5px rgba(171,171,171,0.73);
+        box-shadow: 0px 0px 10px 5px rgba(171,171,171,0.73);
+        .img1 {
+            position: absolute;
+            top: -100px;
+            left: 370px;
+        }
+        .img2 {
+            position: absolute;
+            top: 100px;
+            left: 458px;
+            
+        }
+        p{
+            padding-top: 168px;
+            width: 800px;
+            text-align: center;
+            margin: 0 auto;
+            font-size: 24px;
+            line-height: 40px;
+            font-weight: 300;
+            color: #726E9E;
+            font-family: "Paprika", serif;
+        }
+        h3{
+            font-size: 25px;
+            line-height: 40px;
+            font-weight: 7000;
+            color: #221A2C;
+            font-family: "Open Sans", serif;
+            text-align: center;
+            margin-top: 48px;
+        }
+        h4{
+            font-size: 16px;
+            line-height: 25px;
+            font-weight: 300;
+            font-family: "Paprika", serif;
+            text-align: center;
+            padding-bottom: 56px;
+        }
+    }
+    .prev_icon{
+        background: #1BBF00;
+        border-radius: 50%;
+        width: 64px;
+        height: 64px;
+        position: relative;
+        left: -150px;
+    }
+    .icon{
+        position: absolute;
+        top: auto;
+        color: red;
+    }
+    .next_icon{
+        background: #1BBF00;
+        border-radius: 50%;
+        width: 64px;
+        height: 64px;
+        position: relative;
+        right: -150px;
+    }
+}

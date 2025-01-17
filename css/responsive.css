@@ -1,0 +1,11 @@
+@media (min-width:480px) and (max-width:768px) {
+
+
+    /*============NAVBAR RESPONSIVE START============ */
+
+
+    .navbar-toggler i{
+        color: white;
+        
+    }
+}

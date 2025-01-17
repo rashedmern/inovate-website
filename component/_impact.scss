@@ -1,5 +1,11 @@
 #impact{
     background: #ffffff;
+    position: relative;
+    .elements{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
     .top_part{
         text-align: center;
         padding-top: 100px;
@@ -22,7 +28,61 @@
 
         }
     }
-    .col-lg-6{
-        
+    .items{
+        display: flex;
+        gap: 35px;
+        img{
+            width: 60px;
+            height: 60px;
+        }
+        h3{
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 36px;
+            font-family: "Open Sans", serif;
+            margin-bottom: 20px;
+            color: #141135;
+            text-transform: capitalize;
+        }
+        p{
+            max-width: 340px;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 30px;
+            font-family: "Paprika", serif;
+            color: #726E9E;
+        }
     }
+    .items2{
+        display: flex;
+        gap: 35px;
+        img{
+            width: 60px;
+            height: 60px;
+            margin-top: 40px;
+        }
+        h3{
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 36px;
+            font-family: "Open Sans", serif;
+            margin-top: 40px;
+            color: #141135;
+            text-transform: capitalize;
+        }
+        p{
+            max-width: 340px;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 30px;
+            font-family: "Paprika", serif;
+            color: #726E9E;
+        }
+    }
+    .col-lg-6{
+        img{
+            padding-bottom: 100px;
+        }
+    }
+
 }
